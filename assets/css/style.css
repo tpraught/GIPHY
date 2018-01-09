@@ -16,6 +16,10 @@ header p {
 	text-align: center;
 }
 
+.header {
+  max-width:80%;
+}
+
 #main {
 	width:85%;
 	margin:50px auto;
