@@ -9,7 +9,7 @@ var topics = ['Sheldon Cooper', 'Leonard Hofstadter', 'Howard Wolowitz', 'Raj Ko
 function displayGiphy() {
 	$('#searchResults').empty();
 	var topic = $(this).attr('data-name');
-	var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' +
+	var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' +
         topic + '&api_key=UprIonJRo2c0uAMskYCcXGzmABBRxsoa&limit=10';
 
     $.ajax({
